@@ -1,0 +1,17 @@
+{
+  "actorSpecification": 1,
+  "name": "temu-scraper",
+  "title": "Temu Scraper (Trending Products, Sales Count & Flash Deals)",
+  "description": "Temu Scraper: Extract trending viral items, sales volume benchmarks, flash lightning deals, discounted prices, customer reviews, seller information, and specifications at scale. Perfect for discovering high-velocity consumer goods, dropshipping trends, and ultra-fast price tracking online.",
+  "version": "1.0",
+  "meta": {
+    "templateId": "js-crawlee-playwright"
+  },
+  "dockerfile": "../Dockerfile",
+  "input": "./input_schema.json",
+  "storages": {
+    "dataset": "./dataset_schema.json",
+    "keyValueStore": "./key_value_store_schema.json"
+  },
+  "output": "./output_schema.json"
+}
